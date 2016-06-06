@@ -49,4 +49,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="DemoTouch" />
+
+    <Button
+        android:id="@+id/btn_swipe_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DemoswipeImage" />
 </LinearLayout>

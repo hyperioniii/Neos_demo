@@ -35,6 +35,7 @@
         <activity android:name=".touchImage.SwitchImageExampleActivity" />
         <activity android:name=".touchImage.SwitchScaleTypeExampleActivity" />
         <activity android:name=".touchImage.MainActivityTouchImage" />
+        <activity android:name=".TouchGirdView.ClickImageGrid" />
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="6d34f93bfff974db392827c3aa5a05af6cde31f5" />

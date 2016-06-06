@@ -13,6 +13,7 @@ import io.fabric.sdk.android.Fabric;
 import jp.taizan.android.vjap.VTextLayout;
 import me.iwf.photopicker.PhotoPickerActivity;
 import me.iwf.photopicker.utils.PhotoPickerIntent;
+import neos.haihack.com.demoneos.TouchGirdView.ClickImageGrid;
 import neos.haihack.com.demoneos.touchImage.MainActivityTouchImage;
 
 public class MainActivity extends AppCompatActivity {
@@ -76,6 +77,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, MainActivityTouchImage.class);
+                startActivityForResult(intent, 9);
+            }
+        });
+
+        Button bbtn_swipe_img = (Button) findViewById(R.id. btn_swipe_img);
+        bbtn_swipe_img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ClickImageGrid.class);
                 startActivityForResult(intent, 9);
             }
         });
