@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="neos.haihack.com.demoneos.MainActivity">
+
+    <jp.taizan.android.vjap.VTextLayout
+        android:id="@+id/vTextLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/input"
+        android:hint="input"
+        android:lines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gallery" />
+
+    <Button
+        android:id="@+id/btn_zoom_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linhnh" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/btn_demo_touch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DemoTouch" />
+</LinearLayout>

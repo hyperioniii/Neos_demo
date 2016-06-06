@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/myPhotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#000000"
+        android:dividerHeight="1dp" />
+
+    <TextView
+        fontPath="fonts/Cacophony-Out-Loud.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Cacophony Out Loud font" />
+
+    <TextView
+        fontPath="fonts/Cactus-Plain.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Cactus Plain font" />
+
+    <TextView
+        fontPath="fonts/Roboto-Bold.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Roboto Bold font" />
+</LinearLayout>
