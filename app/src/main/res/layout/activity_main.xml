@@ -55,4 +55,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="DemoswipeImage" />
+    <Button
+        android:id="@+id/btn_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book" />
 </LinearLayout>

@@ -14,6 +14,7 @@ import jp.taizan.android.vjap.VTextLayout;
 import me.iwf.photopicker.PhotoPickerActivity;
 import me.iwf.photopicker.utils.PhotoPickerIntent;
 import neos.haihack.com.demoneos.TouchGirdView.ClickImageGrid;
+import neos.haihack.com.demoneos.pageBook.CurlActivity;
 import neos.haihack.com.demoneos.touchImage.MainActivityTouchImage;
 
 public class MainActivity extends AppCompatActivity {
@@ -89,6 +90,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(intent, 9);
             }
         });
+        Button book = (Button) findViewById(R.id.btn_book);
+        book.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, CurlActivity.class);
+                startActivityForResult(intent, 9);
+            }
+        });
+
     }
 
 
